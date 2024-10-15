@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14925ADC0D98649923805E36 /* Pods_RNTangoGzTrainingCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37B08CB0267B7B9B471F244 /* Pods_RNTangoGzTrainingCenter.framework */; };
+		975F9D792CBE589A00A0BAA6 /* RCTAppDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F9D762CBE589A00A0BAA6 /* RCTAppDelegateHelper.m */; };
+		975F9D7A2CBE589A00A0BAA6 /* RNNetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F9D772CBE589A00A0BAA6 /* RNNetReachability.m */; };
+		975F9D7D2CBE58F600A0BAA6 /* RNTangoTrainingrAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F9D7C2CBE58F600A0BAA6 /* RNTangoTrainingrAssistant.m */; };
+		975F9D802CBE594500A0BAA6 /* RNTangoPracticeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F9D7F2CBE594500A0BAA6 /* RNTangoPracticeServer.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNTangoGzTrainingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNTangoGzTrainingCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNTangoGzTrainingCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTangoGzTrainingCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3413183A6C5ED891268D3C97 /* Pods-RNTangoGzTrainingCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTangoGzTrainingCenter.release.xcconfig"; path = "Target Support Files/Pods-RNTangoGzTrainingCenter/Pods-RNTangoGzTrainingCenter.release.xcconfig"; sourceTree = "<group>"; };
+		975F9D752CBE589A00A0BAA6 /* RCTAppDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTAppDelegateHelper.h; sourceTree = "<group>"; };
+		975F9D762CBE589A00A0BAA6 /* RCTAppDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTAppDelegateHelper.m; sourceTree = "<group>"; };
+		975F9D772CBE589A00A0BAA6 /* RNNetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNetReachability.m; sourceTree = "<group>"; };
+		975F9D782CBE589A00A0BAA6 /* RNNetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNetReachability.h; sourceTree = "<group>"; };
+		975F9D7B2CBE58F600A0BAA6 /* RNTangoTrainingrAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTangoTrainingrAssistant.h; sourceTree = "<group>"; };
+		975F9D7C2CBE58F600A0BAA6 /* RNTangoTrainingrAssistant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTangoTrainingrAssistant.m; sourceTree = "<group>"; };
+		975F9D7E2CBE594500A0BAA6 /* RNTangoPracticeServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTangoPracticeServer.h; sourceTree = "<group>"; };
+		975F9D7F2CBE594500A0BAA6 /* RNTangoPracticeServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTangoPracticeServer.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNTangoGzTrainingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTangoGzTrainingCenter.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNTangoGzTrainingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTangoGzTrainingCenter.m; sourceTree = "<group>"; };
+		D37B08CB0267B7B9B471F244 /* Pods_RNTangoGzTrainingCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNTangoGzTrainingCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8DB8453915300C4CE7F2BC /* Pods-RNTangoGzTrainingCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTangoGzTrainingCenter.debug.xcconfig"; path = "Target Support Files/Pods-RNTangoGzTrainingCenter/Pods-RNTangoGzTrainingCenter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14925ADC0D98649923805E36 /* Pods_RNTangoGzTrainingCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNTangoGzTrainingCenter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139584C687FBC62B9669FC14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED8DB8453915300C4CE7F2BC /* Pods-RNTangoGzTrainingCenter.debug.xcconfig */,
+				3413183A6C5ED891268D3C97 /* Pods-RNTangoGzTrainingCenter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				B3E7B5881CC2AC0600A0062D /* RNTangoGzTrainingCenter.h */,
+				B3E7B5891CC2AC0600A0062D /* RNTangoGzTrainingCenter.m */,
+				975F9D752CBE589A00A0BAA6 /* RCTAppDelegateHelper.h */,
+				975F9D762CBE589A00A0BAA6 /* RCTAppDelegateHelper.m */,
+				975F9D7B2CBE58F600A0BAA6 /* RNTangoTrainingrAssistant.h */,
+				975F9D7C2CBE58F600A0BAA6 /* RNTangoTrainingrAssistant.m */,
+				975F9D7E2CBE594500A0BAA6 /* RNTangoPracticeServer.h */,
+				975F9D7F2CBE594500A0BAA6 /* RNTangoPracticeServer.m */,
+				975F9D782CBE589A00A0BAA6 /* RNNetReachability.h */,
+				975F9D772CBE589A00A0BAA6 /* RNNetReachability.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				139584C687FBC62B9669FC14 /* Pods */,
+				F457E22E7D02B5143BC864EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F457E22E7D02B5143BC864EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D37B08CB0267B7B9B471F244 /* Pods_RNTangoGzTrainingCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNTangoGzTrainingCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNTangoGzTrainingCenter" */;
+			buildPhases = (
+				5C33726002803BA695FC2A9E /* [CP] Check Pods Manifest.lock */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNTangoGzTrainingCenter;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNTangoGzTrainingCenter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNTangoGzTrainingCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNTangoGzTrainingCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C33726002803BA695FC2A9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNTangoGzTrainingCenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975F9D7A2CBE589A00A0BAA6 /* RNNetReachability.m in Sources */,
+				975F9D802CBE594500A0BAA6 /* RNTangoPracticeServer.m in Sources */,
+				975F9D792CBE589A00A0BAA6 /* RCTAppDelegateHelper.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNTangoGzTrainingCenter.m in Sources */,
+				975F9D7D2CBE58F600A0BAA6 /* RNTangoTrainingrAssistant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8DB8453915300C4CE7F2BC /* Pods-RNTangoGzTrainingCenter.debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNTangoGzTrainingCenter;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3413183A6C5ED891268D3C97 /* Pods-RNTangoGzTrainingCenter.release.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNTangoGzTrainingCenter;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNTangoGzTrainingCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNTangoGzTrainingCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}

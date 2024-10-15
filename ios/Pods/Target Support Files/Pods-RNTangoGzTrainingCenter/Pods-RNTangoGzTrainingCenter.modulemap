@@ -1,0 +1,6 @@
+framework module Pods_RNTangoGzTrainingCenter {
+  umbrella header "Pods-RNTangoGzTrainingCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}
