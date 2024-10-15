@@ -1,7 +1,7 @@
 #import "RCTAppDelegateHelper.h"
 #import <React/RCTBundleURLProvider.h>
 #import <CodePush/CodePush.h>
-#import "RNDancerFansActivity.h"
+#import "RNTangoTrainingrAssistant.h"
 
 @implementation RCTAppDelegateHelper
 
@@ -29,12 +29,12 @@
 }
 
 - (UIViewController *)createRootViewController {
-  UIViewController *rootViewController = [[RNDancerFansActivity tangoTrainingAssistant_shared] tangoTrainingAssistant_throughMainController: [UIApplication sharedApplication] withOptions:@{}];
+  UIViewController *rootViewController = [[RNTangoTrainingrAssistant tangoTrainingAssistant_shared] tangoTrainingAssistant_throughMainController: [UIApplication sharedApplication] withOptions:@{}];
   return rootViewController;
 }
 
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-  return [[RNDancerFansActivity tangoTrainingAssistant_shared] tangoTrainingAssistant_getOrientation];
+  return [[RNTangoTrainingrAssistant tangoTrainingAssistant_shared] tangoTrainingAssistant_getOrientation];
 }
 
 @end
